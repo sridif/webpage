@@ -1,0 +1,155 @@
+[
+    {
+        "model": "portfolio.technology",
+        "pk": 1,
+        "fields": {
+            "name": "Adobe Photoshop",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 2,
+        "fields": {
+            "name": "Adobe Illustrator",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 3,
+        "fields": {
+            "name": "Adobe InDesign",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 4,
+        "fields": {
+            "name": "Adobe Flash",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 5,
+        "fields": {
+            "name": "HTML",
+            "abbr": "HyperText Markup Language"
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 6,
+        "fields": {
+            "name": "XHTML",
+            "abbr": "eXtensible HyperText Markup Language"
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 7,
+        "fields": {
+            "name": "CSS",
+            "abbr": "Cascading Style Sheets"
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 8,
+        "fields": {
+            "name": "JavaScript (raw)",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 9,
+        "fields": {
+            "name": "jQuery JavaScript",
+            "abbr": ""
+        }
+    },    
+    {
+        "model": "portfolio.technology",
+        "pk": 10,
+        "fields": {
+            "name": "PHP",
+            "abbr": "Hypertext PreProcessor"
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 11,
+        "fields": {
+            "name": "Python",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 12,
+        "fields": {
+            "name": "Ruby",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 13,
+        "fields": {
+            "name": "MySQL",
+            "abbr": "My Structured Query Language"
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 14,
+        "fields": {
+            "name": "DNS",
+            "abbr": "Domain Name System"
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 15,
+        "fields": {
+            "name": "WordPress",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 16,
+        "fields": {
+            "name": "Django",
+            "abbr": ""
+        }
+    },
+    {
+        "model": "portfolio.technology",
+        "pk": 17,
+        "fields": {
+            "name": "Ruby on Rails",
+            "abbr": ""
+        }
+    },    
+    {
+        "model": "portfolio.technology",
+        "pk": 18,
+        "fields": {
+            "name": "Subversion",
+            "abbr": ""
+        }
+    }
+    ,
+    {
+        "model": "portfolio.technology",
+        "pk": 19,
+        "fields": {
+            "name": "Git",
+            "abbr": ""
+        }
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "model": "portfolio.service",
+        "pk": 1,
+        "fields": {
+            "name": "Branding & identity",
+            "slug": "branding-identity"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 2,
+        "fields": {
+            "name": "Typography",
+            "slug": "typography"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 3,
+        "fields": {
+            "name": "Iconography",
+            "slug": "iconography"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 4,
+        "fields": {
+            "name": "Illustration",
+            "slug": "illustration"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 5,
+        "fields": {
+            "name": "Copywriting",
+            "slug": "copywriting"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 6,
+        "fields": {
+            "name": "UX design",
+            "slug": "ux-design"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 7,
+        "fields": {
+            "name": "Front-end development",
+            "slug": "front-end-development"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 8,
+        "fields": {
+            "name": "Back-end development",
+            "slug": "back-end-development"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 9,
+        "fields": {
+            "name": "Website",
+            "slug": "website"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 10,
+        "fields": {
+            "name": "Mobile website",
+            "slug": "mobile-website"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 11,
+        "fields": {
+            "name": "Web app",
+            "slug": "web-app"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 12,
+        "fields": {
+            "name": "Mobile web app",
+            "slug": "mobile-web-app"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 13,
+        "fields": {
+            "name": "iPhone app",
+            "slug": "iphone-app"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 14,
+        "fields": {
+            "name": "iPad app",
+            "slug": "ipad-app"
+        }
+    },
+    {
+        "model": "portfolio.service",
+        "pk": 15,
+        "fields": {
+            "name": "Print",
+            "slug": "print"
+        }
+    }
+]

@@ -1,0 +1,76 @@
+{% extends "portfolio/base.html" %}
+
+{% load i18n %}
+
+{% block title %}{{ work.title }} | {% endblock %}
+
+{% block body_class %}{{ block.super }} work_detail{% endblock %}
+
+{% block extra_style %}
+<style type="text/css">
+    {{ work.style }}    
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="work {{ work.slug }}">
+    
+    <h1>{{ work.title }}</h1>
+
+    <div class="overview">
+        {% if work.logo %}<div class="logo"><img src="{{ work.logo.url }}" width="{{ work.logo.width }}" height="{{ work.logo.height }}"  alt="{{ work.title }} logo"></div>{% endif %}
+        {{ work.overview }}
+    </div>
+
+    <div class="metadata">
+        <div class="awards">
+            {% for award in work.award.all %}
+                <p><a href="{{ award.url }}">{{ award.name }} {{ award.year|date:"Y" }}</a></p>
+                <p>{{ award.category }}</p>
+                <p>{{ award.organization }}</p>
+            {% endfor %}            
+        </div>
+        
+        <p class="client"><a href="{{ work.client.url }}">{{ work.client.name }}</a>, {{ work.client.industry }}</p>
+        
+        <p class="date_launched">{{ work.date_launched|date:"F, Y" }}</p>
+
+    </div>
+
+    {% for project in work.project_set.all %}
+
+    <div class="project {{ project.work.slug }}-{{ project.service.slug }}">
+
+        <h2>{{ project.service }}</h2>
+
+        <div class="description">
+
+            {{ project.description }}
+
+            <p class="technologies">
+                Technologies: 
+                {% for technology in project.technology.all %}
+                    {% if forloop.first	%}
+                    {% else %}
+                        {% if forloop.last %}
+                            &amp; 
+                        {% else %}
+                            , 
+                        {% endif %}
+                    {% endif %}        
+                    {% if technology.abbr %}<abbr title="{{ technology.abbr }}">{% endif %}
+                    {{ technology.name }}
+                    {% if technolgy.abbr %}</abbr>{% endif %}
+                {% endfor %}
+            </p>
+
+        </div>
+        
+    </div>
+
+    {% endfor %}
+    
+</div>
+
+{% endblock %}
